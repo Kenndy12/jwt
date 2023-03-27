@@ -1,0 +1,18 @@
+1. Apa itu authorization?
+	Authorization adalah proses untuk mencek apakah seorang user berhak untuk memiliki access ke sebuah file ato service.
+2. Apa itu JWT?
+	JWT atau JSON Web Token adalah standard yang digunakan yang digunakan untuk mengshare informasi antar dua piak
+3. Bagaimana implementasi nya 2 hal di atas?
+	Di folder jwt
+4. Rancang lah 4 buah table, dengan syarat hrus ada relasi one to many, dan one to one
+	Di gambar 4Tables, tabel2 terdiri dari
+	- User
+	- Product
+	- Category
+	- Product Image
+
+	Relasi2 setiap tabel adalah
+	User one to Many to Product
+	Product Many to Many to Category
+	Product One to Many ProductImage
+
